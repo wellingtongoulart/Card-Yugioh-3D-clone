@@ -50,7 +50,7 @@ input {
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 15px;
-  background-image: url('img/card\ back.png');
+  background-image: url('img/card back.png');
 }
 
 .item:hover {
@@ -66,9 +66,9 @@ input {
   background-image: url('img/obelisk.png');
 }
 
-#ra:checked ~ .container > .card3 {
+#ra:checked ~ .container > .card2 {
   transform: rotateY(180deg) scaleX(-1);
-  background-image: url('img/slifer.png');
+  background-image: url('img/ra.png');
 }
 
 #slifer:checked ~ .container > .card3 {
